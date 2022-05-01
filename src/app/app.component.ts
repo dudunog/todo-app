@@ -9,7 +9,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class AppComponent {
   public mode: string = 'list';
-  public title: string = 'My tasks';
+  public title: string = 'Minhas tarefas';
   public todos: Todo[] = [];
   public form: FormGroup;
 
